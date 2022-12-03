@@ -28,3 +28,10 @@ document.getElementById('key-pad').addEventListener('click', function (event) {
         calcInput.value = newNumber;
     }
 });
+
+function verifyPin(){
+    const pin = document.getElementById('display-pin').value;
+    const typedNumbers = document.getElementById('typed-numbers').value;
+    const successMessage = document.getElementById('notify-numbers');
+    const failError = document.getElementById('notify-fail');
+}
